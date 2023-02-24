@@ -1,0 +1,146 @@
+:root{
+    --color1:#2196F3; 
+    --color2:#212121;
+    --color3:#757575;
+    --color4:#2F303A;
+    --color5:#FFFFFF;
+    --color6: rgba(255, 255, 255, 0.6);}
+
+html {width: 1200px;}
+/*----------fuente body---------*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+    /*---------logo---------*/
+   .logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px; font-weight: 700; color:var(--color1); text-decoration: none; }
+
+ul, h1, h2, h3, h4, h5, h6 {
+   list-style: none;
+}
+
+a {
+   color:currentColor; text-decoration: none;
+   }
+   *{box-sizing: border-box;}
+
+/*----------Enlacees de navegacion---------*/
+ .navegation {font-weight: 500; font-size: 14px; line-height: 1.14; color: var(--color2); }
+
+.navegation :hover {color: var(--color1);}
+.active{color:#2196F3;}
+/*------------------contact---------------------*/
+.contact-section > .email > *{
+color:var(--color3); font-weight: 500; font-size: 14px; line-height: 1.14; text-decoration: none;
+}
+   .contact-section > .tel > *{
+    color:var(--color3); font-weight: 500; font-size: 14px; line-height: 1.14; text-decoration: none;
+   }
+   .contact-section :hover{
+    color: var(--color4);
+   }
+   .contact-section :active{
+    color: rgb(240, 154, 123);
+   }
+   .contact-section {list-style: none;}
+/*-----------------------titulo------------------------*/
+   .titulo {
+    background-color: var(--color4);
+      }
+      .h1 {
+        color: var(--color5); font-size: 44px; font-weight: 900; text-align: center; line-height: 1.36;
+          }
+
+   .boton1{
+        font-weight: 700; font-size: 16px;  color:var(--color5);  background-color: var(--color1); line-height: 1.87; font-family: 'Roboto', sans-serif;
+     }
+     .titulo :hover{
+        background-color: var(--color4)
+        ;
+     }
+     .titulo :active{
+        background-color: var(--color1);
+     }
+
+     .ventajas h3 {
+        color:var(--color2); font-size: 14px; font-weight: 700; line-height: 1.14;
+     }
+     .ventajas p {
+        font-weight: 400; font-size: 14px; color:var(--color3); line-height: 1.71;
+     }
+     .ventajas h3 {
+        list-style: none;
+     }
+
+    
+   /*-----------------------A que nos dedicamos------------------*/
+   .dedicamos h2{
+      color:var(--color2); font-size: 36px; font-weight: 700; line-height: 1.16;
+   }
+   .imagen {list-style: none;}
+
+   /*------------------Nuetro equipo-------------------------*/
+   .equipo h2{
+      color:var(--color2); font-size: 36px; font-weight: 700; line-height: 1.16;
+   }
+        
+   .asesores h3 {color:var(--color2); font-size: 16px; line-height: 1.18; font-weight: 500; background-color: #FFFFFF;}
+   .asesores p {color:var(--color3);font-size: 16px; line-height: 1.18; font-weight: 400;}
+
+   /*-------------------------pie de pagina--------------------*/
+  .final {background-color: var(--color4);}
+  .contacto .ubicacion{
+   color:var(--color5); font-size: 14px; font-weight: 400; text-decoration: none; line-height: 1.71;
+  }
+.contacto .correo{
+   color:var(--color6); font-size: 14px; font-weight: 400; text-decoration: none; line-height: 1.71;
+}
+.contacto .telefono{
+   color:var(--color6); font-size: 14px; font-weight: 400; text-decoration: none; line-height: 1.71;
+}
+/*-------------------
+  
+ /*-----------------------------portafolio botones---------------------------*/
+ .menu {
+   font-size: 16px; font-weight: 500; line-height: 1.62; color: var(--color5);
+ }
+   .proyect h3{color: var(--color2); font-size: 18px; font-weight: 700; line-height: 2;
+
+   }
+   .menu p{
+      font-size: 16; font-weight: 400; line-height: 1.87; color: var(--color3);
+   }
+   .menu :hover{color:var(--color3)}
+/*-------------flex box index html----------------------------------*/
+.header-nav{display: flex; justify-content: center; align-items: center;height: 80px; }
+.navigation-list{display: flex; margin: 50px; }
+.navegation{ margin: 30px;}
+
+.contact-section{display: flex; justify-content: space-between;margin: 10px;} 
+   .email{margin: 20px;}
+.tel{margin: 20px;}
+
+.h1{width: 696px;height: 120;}
+.titulo{height: 600px; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.boton1{width: 261px; height: 50px;margin: 40px;}
+
+.encabezado {display: flex;align-items: center; justify-content: space-between;}
+.encabezado .p{display: flex; justify-content: center; align-items: center;justify-content: space-between;}
+.list-ventajas{margin-right: 30px;}
+.dedicamos{text-align: center;}
+
+.imagen{display: flex; align-items: center; justify-content: space-between;}
+
+
+.asesores{display: flex; align-items:center; justify-content: space-between;}
+.equipo{text-align: center;}
+
+/*---------------flex box portafolio---------------*/
+
+.header-nav{display: flex; justify-content: center; align-items: center;height: 80px;}
+.menu{display: flex;justify-content: center;}
+.button-list{padding: 8px;}
+.proyect{display: flex;flex-wrap:wrap;justify-content: space-between;}
+.contacto-footer {padding: 0px;}
+.final {padding: 70px;}

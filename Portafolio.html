@@ -8,16 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>portafolio</title>
-    <link rel="stylesheet" href="./css/styles.css">
 <!----------Normalizacion---------->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-  />
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+/>
+<link rel="stylesheet" href="./css/styles.css">
 
 </head>
 <body>
-    <header>
+    <header style="border-bottom: 1px solid #ececee;">
+        <div class="container">
         <nav class="header-nav">
            <a class="logo" href="#">WebStudio </a> 
            <ul class="navigation-list">
@@ -32,69 +33,72 @@
             <li class="tel"><a href="+525555296000">+525555296000</a></li>
            </ul>
         </nav>
+    </div>
     </header>
-    <main>
+    <main class="container">
         <section>
+    
         <ul class="menu">
-        <li class="button-list"><button type="button" style="color:#FFFFFF; background: #2196f3;">Todo</button></li>
-        <li class="button-list"><button type="button">Sitio-Web</button></li>
-        <li class="button-list"><button type="button">Aplicaciones</button></li>
-        <li class="button-list"><button type="button">Diseño</button></li>
-        <li class="button-list"><button type="button">Marketing</button></li>
+        <li class="button-list"><button type="button" class="botton-menu" style="color:#FFFFFF; background: #2196f3;">Todo</button></li>
+        <li class="button-list"><button type="button" class="botton-menu">Sitio-Web</button></li>
+        <li class="button-list"><button type="button" class="botton-menu">Aplicaciones</button></li>
+        <li class="button-list"><button type="button" class="botton-menu">Diseño</button></li>
+        <li class="button-list"><button type="button" class="botton-menu">Marketing</button></li>
         </ul>
          <ul class="proyect">
-             <li>
+             <li style="flex-basis: calc((100% - 60px) / 3); border: 1px solid #eeee;">
         <img  src="images/imagen(8).jpg" alt="Tecnoduck" width="370">
           <h3>Tecnoduck </h3>
           <p>Sitio-Web </p>
         </li>
-                <li>
+                <li style="flex-basis: calc((100% - 60px) / 3);border: 1px solid #eeee;">
                     <img src="images/imagen(9).jpg" alt="Poster nueva Orleans" width="370">
                     <h3>Poster de Nueva Orleans vs Estrella Dorada</h3>
                     <p>Diseño</p>
                 </li>
-                <li>
+                <li style="flex-basis: calc((100% - 60px) / 3);border: 1px solid #eeee;">
                     <img src="images/imagen(10).jpg" alt="Restaurante Seafood" width="370">
                     <h3>Restaurante Seafood</h3>
                     <p>Aplicaciones</p>
                 </li>
-                <li>
+                <li style="flex-basis: calc((100% - 60px) / 3);border: 1px solid #eeee;">
                     <img src="images/imagen(11).jpg" alt="Proyecto prime" width="370">
                     <h3>Proyecto prime</h3>
                     <p>Marketing</p>
                 </li>
-                <li>
+                <li style="flex-basis: calc((100% - 60px) / 3);border: 1px solid #eeee;">
                     <img src="images/imagen(12).jpg" alt="Proyecto cajas" width="370">
                     <h3>Proyecto cajas</h3>
                     <p>Aplicaciones</p>
                 </li>
-                <li>
+                <li style="flex-basis: calc((100% - 60px) / 3);border: 1px solid #eeee;">
                     <img src="images/imagen(13).jpg" alt="La inspiracion no tiene limites" width="370">
                 <H3>La inspiracion no tiene limites</H3>
                 <p>Sitio-Web</p>
                 </li>
-                <li>
+                <li style="flex-basis: calc((100% - 60px) / 3);border: 1px solid #eeee;">
                     <img src="images/imagen(14).jpg" alt="Edicion limitada" width="370">
                 <h3>Edicion Limitada</h3>
                 <p>Diseño</p>
                 </li>
-                <li>
+                <li style="flex-basis: calc((100% - 60px) / 3);border: 1px solid #eeee;">
                     <img src="images/imagen(15).jpg" alt="Proyecto lab" width="370">
                     <h3>Proyecto Lab</h3>
                     <p>Marketing</p>
                 </li>
-                <li>
+                <li style="flex-basis: calc((100% - 60px) / 3);border: 1px solid #eeee;">
                     <img src="images/imagen(16).jpg" alt="Negocio en crecimiento" width="370">
                     <h3>Negocio en Crecimiento</h3>
                     <P>Aplicaciones</P>
                 </li>
             </ul>
+        
         </section>
     </main>
     <footer class="final">
+        <div class="container">
         <a class="logo" href="#">WebStudio</a>
         <address style="font-style: normal;">
-          
         <ul class="contacto contacto-footer">
          <li> <a class="ubicacion" href="https://goo.gl/maps/qQAScCdjSYYtqktD9" target="_blank" rel="nopener noreferrer">
           Calz. Ticoman 500, ciudad de Mexico, CDMX, Mexico</a></li>
@@ -102,6 +106,7 @@
           <li><a class="telefono" href="tel:+525555296000">+525555296000</a></li>
         </ul>
       </address>
+    </div>
       </footer>
     </body>
     </html>

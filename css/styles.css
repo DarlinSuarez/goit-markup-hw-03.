@@ -6,7 +6,6 @@
     --color5:#FFFFFF;
     --color6: rgba(255, 255, 255, 0.6);}
 
-html {width: 1200px;}
 /*----------fuente body---------*/
 body {
     font-family: 'Roboto', sans-serif;
@@ -19,6 +18,8 @@ body {
 ul, h1, h2, h3, h4, h5, h6 {
    list-style: none;
 }
+
+.container {width: 1200px; margin: 0 auto;}
 
 a {
    color:currentColor; text-decoration: none;
@@ -81,6 +82,7 @@ color:var(--color3); font-weight: 500; font-size: 14px; line-height: 1.14; text-
    .imagen {list-style: none;}
 
    /*------------------Nuetro equipo-------------------------*/
+   .equipo{background: #F5F4FA;}
    .equipo h2{
       color:var(--color2); font-size: 36px; font-weight: 700; line-height: 1.16;
    }
@@ -144,3 +146,8 @@ color:var(--color3); font-weight: 500; font-size: 14px; line-height: 1.14; text-
 .proyect{display: flex;flex-wrap:wrap;justify-content: space-between;}
 .contacto-footer {padding: 0px;}
 .final {padding: 70px;}
+
+ .botton-menu{border-radius: 4px; padding: 6px 22px; border:none;background-color:#F5F4FA ;}
+ .menu :hover{cursor: pointer; color:#FFFFFF;background-color: #2196F3;}
+ .contact-section :hover{color:#2196F3;cursor: pointer;}
+ 
